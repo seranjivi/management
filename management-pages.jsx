@@ -493,7 +493,7 @@ const Dashboard = ({ setPage }) => {
                 <Ic n={c.icon} s={16} c={c.color}/>
               </div>
               <div>
-                <div style={{ fontFamily:"'Syne',sans-serif", fontSize:20, fontWeight:800, color:T.text }}>{c.val}</div>
+                <div style={{ fontFamily:"'Outfit',sans-serif", fontSize:20, fontWeight:700, color:T.text }}>{c.val}</div>
                 <div style={{ fontSize:12, color:T.textMid, marginTop:3, fontWeight:500 }}>{c.title}</div>
                 <div style={{ fontSize:11.5, color:c.color, marginTop:4, fontWeight:600 }}>{c.sub}</div>
               </div>
@@ -593,7 +593,7 @@ const ProjectDetail = ({ setPage }) => {
                 </div>
                 <span style={{ fontSize:11, color:T.textLight, fontWeight:600, textTransform:"uppercase", letterSpacing:"0.4px" }}>{s.label}</span>
               </div>
-              <div style={{ fontFamily:"'Outfit',sans-serif", fontSize:20, fontWeight:800, color:s.color }}>{s.value}</div>
+              <div style={{ fontFamily:"'Outfit',sans-serif", fontSize:20, fontWeight:700, color:s.color }}>{s.value}</div>
               <div style={{ fontSize:11.5, color:T.textMid, marginTop:4 }}>{s.sub}</div>
             </div>
           ))}
